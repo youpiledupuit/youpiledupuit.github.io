@@ -8,8 +8,9 @@
         <meta name="author" content="Aurélien Agostino">
         <!-- Bootstrap CSS -->
         <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/css/bootstrap.min.css" integrity="sha384-xOolHFLEh07PJGoPkLv1IbcEPTNtaed2xpHsD9ESMhqIYd0nLMwNLD69Npy4HI+N" crossorigin="anonymous">
-        <link rel="stylesheet" href="css/styles.css">
-        <link rel="icon" href="favicon.ico">
+        <link rel="stylesheet" href="../css/styles.css">
+        <link href="../css/realisations.css" rel="stylesheet">
+        <link rel="icon" href="../favicon.ico">
         <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet">
         <title>Portfolio d'Aurélien Agostino (BTS SIO 2023-2024)</title>
     </head>
@@ -23,12 +24,12 @@
                 <div id="navbar" class="navbar-collapse collapse">
                     <ul class="nav navbar-nav">
                         <li class="active nav-item">
-                            <a href="index.html" class="nav-link">
+                            <a href="../index.html" class="nav-link">
                                 <span class="fa fa-home"></span> Accueil
                             </a>
                         </li>
                         <li class="nav-item">
-                            <a href="pages/cv.html" class="nav-link">
+                            <a href="cv.html" class="nav-link">
                                 <span class="fa fa-id-badge"></span> CV
                             </a>
                         </li>
@@ -41,7 +42,7 @@
                                     En autonomie
                                 </li>
                                 <li role="presentation" class="dropdown-item">
-                                    <a role="menuitem" href="pages/appliandroid.html">Application Android</a>
+                                    <a role="menuitem" href="appliandroid.html">Application Android</a>
                                 </li>
                                 <li role="presentation" class="dropdown-item">
                                     <a role="menuitem" href="#">Site web</a>
@@ -137,17 +138,47 @@
         <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/js/bootstrap.min.js" integrity="sha384-+sLIOodYLS7CIrQpBjl+C7nPvqq+FbNUBDunl/OZv93DB7Ln/533i8e/mZXLi/P+" crossorigin="anonymous"></script>
         -->
     </body>
-    <div class="jumbotron">
+    <section class="jumbotron text-center">
         <div class="container">
-            <h1>Bonjour et bienvenue sur mon portfolio !</h1>
-            <img src="images/AmeliaPilou.jpg" alt="photo d'Amelia Pilou en guise de placeholder dans le cadre du TP">
-            <p>Je m'appelle Aurélien Agostino, j'ai 21 ans et ce site a pour vocation de me présenter en tant que personne, en tant qu'étudiant et candidat à l'obttention du BTS SIO (Services Informatiques aux Organisations) et en tant que futur professionnel de l'informatique.
-            </p>
-            <p><a class="btn btn-primary" href="http://www.cned.fr" target="_blank"
-                  role="button">En savoir plus »</a>
+            <h1 class="jumbotron-heading">Programmation sous Android</h1>
+            <p class="lead text-muted">Cette activité m'a permis de développer une
+                application Android avec différents modes de persistances (locales et
+                distantes) et m'a appris à gérer les adapters. J'ai également pu connaître
+                le mode de déploiement d'une application Android.
             </p>
         </div>
-    </div> <!-- Emplacement pour le contenu principal de la page -->
+    </section>
+    <div class="album py-5 bg-light">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-4">
+                    <div class="card mb-4 shadow-sm">
+                        <img class="card-img-top" src="../images/ihmcoach.png" alt="IHM Coach">
+                        <div class="card-body">
+                            <p class="card-text">Construction de l'interface graphique</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="card mb-4 shadow-sm">
+                        <img class="card-img-top" src="../images/MVC.png"
+                             alt="Structuration MVC">
+                        <div class="card-body">
+                            <p class="card-text">Stucturation de l'application en MVC</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="card mb-4 shadow-sm">
+                        <img class="card-img-top" src="../images/adapters.png" alt="Adapters">
+                        <div class="card-body">
+                            <p class="card-text">Affichage des listes sur mobiles (adapters)</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
     <footer>
         <div class="container">
             <div class="row">
